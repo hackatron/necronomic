@@ -1,10 +1,12 @@
-@(message: String)
+@()
 
-@main("Welcome to Play 2.0") {
+@main("NecroNomic") {
     <header class="jumbotron">
         <div class="container">
             <h1>Welcome to Necronomic</h1>
             <p class="lead">A simple Nomic client</p>
+
+            <a class="btn btn-primary btn-large" href="@routes.Auth.signin">Login with Facebook</a>
         </div>
     </header>
 }
